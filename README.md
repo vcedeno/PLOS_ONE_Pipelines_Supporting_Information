@@ -25,13 +25,13 @@ The property-inference-pipeline format follows the pipeline design and implement
 described in Section 7, _"Pipeline design and implementation"_. These pipelines are
 composable.
 
-* **json-schema: This folder contains the pipeline configuration files and datasets. 
-   **h1: Function h1 generates the properties for a Markovian transition matrix.
-   **h2: Function h1outputs a file with the properties for an adapted conditional random fields (CRF) model.
-   **inputTransformation: 
-   	**datasets: Transformation data in the file h1datasets.json.
-   	**schemas: Transformation schema in the file h1schema.json. The JSON schemas control the accessing of the input files in the datasets folder.
-  **json-schema: 
+* -json-schema: This folder contains the pipeline configuration files and datasets. 
+   -h1: Function h1 generates the properties for a Markovian transition matrix.
+   -h2: Function h1outputs a file with the properties for an adapted conditional random fields (CRF) model.
+   -inputTransformation: 
+   	-datasets: Transformation data in the file h1datasets.json.
+   	-schemas: Transformation schema in the file h1schema.json. The JSON schemas control the accessing of the input files in the datasets folder.
+* -src: 
 
 
 These common fundamental operations are:
