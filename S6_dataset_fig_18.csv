@@ -1,0 +1,7 @@
+Model,Parameter,type,DKL
+n15k6,Unique Letters,ABM1 Model,0.569489906
+n15k6,Words formed,ABM1 Model,1.081415819
+n15k6,Requests Sent,ABM1 Model,1.142735861
+n15k6,Replies Received,ABM1 Model,6.967841497
+n15k6,Requests Received,ABM1 Model,6.556366594
+n15k6,Replies Sent,ABM1 Model,8.610068156
