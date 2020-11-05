@@ -29,8 +29,8 @@ composable.
     - h1: Dataset for the function h1, that generates the properties for a Markovian transition matrix.
     - h2: Dataset for the function h2, that outputs a file with the properties for an adapted conditional random fields (CRF) model.
     - inputTransformation: 
-   	  - datasets: Transformation data in the file h1datasets.json.
-   	  - schemas: Transformation schema in the file h1schema.json. The JSON schemas control the accessing of the input files in the datasets folder.
+   	  - datasets: Transformation data in the file h1.json.
+   	  - schemas: Transformation schema in the file h1.json. The JSON schemas control the accessing of the input files in the datasets folder.
 * src: 
     - h1: Function h1 generates the properties for a Markovian transition matrix.
     - h2: Function h1outputs a file with the properties for an adapted conditional random fields (CRF) model.
