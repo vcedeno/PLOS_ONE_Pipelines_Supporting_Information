@@ -1,4 +1,4 @@
-#Repository: https://github.com/vcedeno/PLOS_ONE_Pipelines_Supporting_Information
+# Repository: https://github.com/vcedeno/PLOS_ONE_Pipelines_Supporting_Information
 
 # PLOS_ONE_Pipelines_Supporting_Information
 _Data analysis and modeling pipelines for controlled networked social science experiments_
