@@ -41,7 +41,7 @@ We say that the pipelines in this repo contain the “pipeline framework” code
       * validateJson.py : code that check files against their JSON schema and terminate
 gracefully if a verification fails.
   * jsonInputPipeline
-    * input: property-inference-pipeline.json contains the list of function to execute. The example shows how to execute function h1.
+    * input: property-inference-pipeline.json contains the list of functions to execute. The example shows how to execute function h1.
     * schema: JSON schema for input verification. 
   
 ### Invocation
