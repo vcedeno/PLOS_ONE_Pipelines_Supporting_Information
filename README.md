@@ -26,17 +26,19 @@ described in Section 7, _"Pipeline design and implementation"_. These pipelines 
 composable.
 We say that the pipelines in this repo contain the “pipeline framework” code for extensibility to other pipelines.
 
-* json-schema: This folder contains the pipeline configuration files and datasets. 
-    - h1: Dataset for the function h1, that generates the properties for a Markovian transition matrix.
-    - h2: Dataset for the function h2, that outputs a file with the properties for an adapted conditional random fields (CRF) model.
-    - inputTransformation: 
-   	  - datasets: Transformation data in the file h1.json.
-   	  - schemas: Transformation schema in the file h1.json. The JSON schemas control the accessing of the input files in the datasets folder.
-* src: 
-    - h1: Function h1 generates the properties for a Markovian transition matrix.
-    - h2: Function h1outputs a file with the properties for an adapted conditional random fields (CRF) model.
-    - property-inference-pipeline.py: code that runs the pipeline.
-    - validateJson.py : code that check files against their JSON schema and terminate
+* S1 _ Software _ Table _ 5 
+  * property-inference-pipeline
+  * json-schema: This folder contains the pipeline configuration files and datasets. 
+      - h1: Dataset for the function h1, that generates the properties for a Markovian transition matrix.
+      - h2: Dataset for the function h2, that outputs a file with the properties for an adapted conditional random fields (CRF) model.
+      - inputTransformation: 
+   	    - datasets: Transformation data in the file h1.json.
+   	    - schemas: Transformation schema in the file h1.json. The JSON schemas control the accessing of the input files in the datasets folder.
+  * src: 
+      - h1: Function h1 generates the properties for a Markovian transition matrix.
+      - h2: Function h1outputs a file with the properties for an adapted conditional random fields (CRF) model.
+      - property-inference-pipeline.py: code that runs the pipeline.
+      - validateJson.py : code that check files against their JSON schema and terminate
 gracefully if a verification fails.
 
 ### Invocation
