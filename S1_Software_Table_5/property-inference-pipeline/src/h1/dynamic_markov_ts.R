@@ -116,7 +116,7 @@ for (i in 1:length(datasum))
       }
       if (i==4 && counter>0)
       {
-        B<-rbind(B,betam.m4[counter,])
+        #B<-rbind(B,betam.m4[counter,])
       }
       counter=counter+1
     }

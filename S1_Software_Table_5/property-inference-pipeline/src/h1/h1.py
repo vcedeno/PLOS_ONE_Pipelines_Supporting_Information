@@ -98,6 +98,5 @@ if __name__ == '__main__':
     path=sys.argv[1]
     filename=sys.argv[2]
     groups=sys.argv[3]
-    print (" -- oi --")
     main(path,filename,groups)
     
