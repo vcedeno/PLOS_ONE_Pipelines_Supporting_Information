@@ -24,6 +24,7 @@ The folder S1 _ Software _ Table _ 5 contains code for the third of the five pip
 The property-inference-pipeline format follows the pipeline design and implementation
 described in Section 7, _"Pipeline design and implementation"_. These pipelines are
 composable.
+We say that the pipelines in this repo contain the “pipeline framework” code for extensibility to other pipelines.
 
 * json-schema: This folder contains the pipeline configuration files and datasets. 
     - h1: Dataset for the function h1, that generates the properties for a Markovian transition matrix.
